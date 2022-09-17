@@ -1,6 +1,6 @@
 # NLW eSports - Trilha Explorer
 
-![preview](./.gitbub/danielezanetti.github.io_nlw-trilha-explorer_.png)
+![preview](./.github/preview.png)
 
 Projeto construído no evento Next Level Week da Rocktseat.
 
