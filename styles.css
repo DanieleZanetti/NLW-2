@@ -81,6 +81,9 @@
     
     section ul {
         display: flex;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
         flex-wrap: wrap;
         gap: 16px;
         margin-top: 24px;
@@ -162,5 +165,27 @@
         to {
             opacity: 1;
             transform: translateY(0);
+        }
+    }
+    
+    @media screen and (max-width: 610px) {
+        body {
+            text-align: center;
+        }
+        section ul {
+            display: flex;
+            flex-direction: column;
+        }
+        .series-list img {
+            width: 180px;
+            height: 180px;
+        }
+        .channel-list img {
+            width: 180px;
+            height: 180px;
+        }
+        .social-list img {
+            width: 180px;
+            height: 180px;
         }
     }
